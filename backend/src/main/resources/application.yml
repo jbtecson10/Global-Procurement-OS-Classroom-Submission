@@ -1,0 +1,32 @@
+server:
+  port: ${PORT:8080}
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/marketplace}
+    username: ${DATABASE_USERNAME:marketplace}
+    password: ${DATABASE_PASSWORD:marketplace-dev-only}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+  servlet:
+    multipart:
+      max-file-size: 12MB
+      max-request-size: 13MB
+app:
+  cors-origin: ${FRONTEND_ORIGIN:http://localhost:3000}
+  payment-webhook-secret: ${PAYMENT_WEBHOOK_SECRET:}
+  demo-data-enabled: ${DEMO_DATA_ENABLED:false}
+  ai:
+    base-url: ${OLLAMA_BASE_URL:http://localhost:11434}
+    model: ${OLLAMA_MODEL:llama3.2:3b}
+    image-model: ${OLLAMA_IMAGE_MODEL:moondream:latest}
+  product-image-dir: ${PRODUCT_IMAGE_DIR:/data/product-images}
+  public-url: ${APP_PUBLIC_URL:http://localhost:3000}
+  stripe:
+    secret-key: ${STRIPE_SECRET_KEY:}
+    webhook-secret: ${STRIPE_WEBHOOK_SECRET:}

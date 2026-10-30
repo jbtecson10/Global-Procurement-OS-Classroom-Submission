@@ -1,0 +1,53 @@
+# Render Blueprint for a classroom/demo deployment.
+# Free web services sleep when idle; the free Postgres database expires after 30 days.
+services:
+  - type: web
+    name: global-procurement-api
+    runtime: docker
+    region: singapore
+    plan: free
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: global-procurement-db
+          property: connectionString
+      - key: PAYMENT_WEBHOOK_SECRET
+        generateValue: true
+      - key: FRONTEND_ORIGIN
+        fromService:
+          name: global-procurement-web
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: APP_PUBLIC_URL
+        fromService:
+          name: global-procurement-web
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: DEMO_DATA_ENABLED
+        value: "true"
+      - key: OLLAMA_BASE_URL
+        value: http://127.0.0.1:11434
+
+  - type: web
+    name: global-procurement-web
+    runtime: docker
+    region: singapore
+    plan: free
+    dockerfilePath: ./frontend/Dockerfile
+    dockerContext: ./frontend
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          name: global-procurement-api
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
+
+databases:
+  - name: global-procurement-db
+    region: singapore
+    plan: free
+    databaseName: marketplace
+    user: marketplace

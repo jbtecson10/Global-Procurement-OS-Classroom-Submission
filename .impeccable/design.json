@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T17:17:29Z",
+  "title": "Design System: Foundry",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Foundry Green",
+        "tonalRamp": [
+          "#193427",
+          "#295640",
+          "#3a785a",
+          "#4b9b74",
+          "#64b48d",
+          "#87c5a6",
+          "#badecc",
+          "#eef7f2"
+        ]
+      },
+      "primary-deep": {
+        "role": "primary",
+        "displayName": "Deep Foundry Green",
+        "tonalRamp": [
+          "#183427",
+          "#295740",
+          "#397a5a",
+          "#499c74",
+          "#63b68e",
+          "#85c6a7",
+          "#badecd",
+          "#eef7f2"
+        ]
+      },
+      "primary-soft": {
+        "role": "primary",
+        "displayName": "Soft Foundry Green",
+        "tonalRamp": [
+          "#1e2e1e",
+          "#324d32",
+          "#466c46",
+          "#5b8b5b",
+          "#74a474",
+          "#93b993",
+          "#c1d7c1",
+          "#f0f5f0"
+        ]
+      },
+      "neutral-bg": {
+        "role": "neutral",
+        "displayName": "Cool Workspace Ground",
+        "tonalRamp": [
+          "#242c21",
+          "#3d4937",
+          "#55664c",
+          "#6d8362",
+          "#879d7c",
+          "#a2b399",
+          "#cad3c5",
+          "#f2f4f0"
+        ]
+      },
+      "neutral-surface": {
+        "role": "neutral",
+        "displayName": "Task Surface",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#8c8c8c",
+          "#a6a6a6",
+          "#cccccc",
+          "#f2f2f2"
+        ]
+      },
+      "neutral-ink": {
+        "role": "neutral",
+        "displayName": "Workspace Ink",
+        "tonalRamp": [
+          "#212b25",
+          "#37483e",
+          "#4d6557",
+          "#638270",
+          "#7d9c89",
+          "#9ab2a3",
+          "#c5d3cb",
+          "#f1f4f2"
+        ]
+      },
+      "neutral-muted": {
+        "role": "neutral",
+        "displayName": "Muted Text",
+        "tonalRamp": [
+          "#242925",
+          "#3c443e",
+          "#545e57",
+          "#6c7a70",
+          "#86938a",
+          "#a1aba4",
+          "#c9cfcb",
+          "#f2f3f2"
+        ]
+      },
+      "neutral-quiet": {
+        "role": "neutral",
+        "displayName": "Quiet Text",
+        "tonalRamp": [
+          "#242825",
+          "#3d433e",
+          "#555e57",
+          "#6d7870",
+          "#87928a",
+          "#a1aaa4",
+          "#cacecb",
+          "#f2f3f2"
+        ]
+      },
+      "neutral-line": {
+        "role": "neutral",
+        "displayName": "Structural Line",
+        "tonalRamp": [
+          "#222a22",
+          "#394639",
+          "#506250",
+          "#677f67",
+          "#809880",
+          "#9daf9d",
+          "#c7d1c7",
+          "#f1f4f1"
+        ]
+      },
+      "status-positive": {
+        "role": "tertiary",
+        "displayName": "Confirmed Green",
+        "tonalRamp": [
+          "#20311c",
+          "#35512f",
+          "#4b7141",
+          "#609254",
+          "#7aab6d",
+          "#97be8e",
+          "#c4dabe",
+          "#f0f6ef"
+        ]
+      },
+      "status-positive-soft": {
+        "role": "tertiary",
+        "displayName": "Confirmed Green Surface",
+        "tonalRamp": [
+          "#213419",
+          "#365629",
+          "#4c783a",
+          "#629b4b",
+          "#7bb464",
+          "#98c587",
+          "#c4deba",
+          "#f0f7ee"
+        ]
+      },
+      "status-warning-soft": {
+        "role": "secondary",
+        "displayName": "Waiting Amber Surface",
+        "tonalRamp": [
+          "#442d08",
+          "#724c0e",
+          "#9f6a13",
+          "#cd8819",
+          "#e6a232",
+          "#ecb760",
+          "#f4d6a4",
+          "#fcf5e8"
+        ]
+      },
+      "status-info-soft": {
+        "role": "secondary",
+        "displayName": "Inquiry Blue Surface",
+        "tonalRamp": [
+          "#152837",
+          "#23425c",
+          "#315c81",
+          "#3f77a6",
+          "#5990c0",
+          "#7ea9ce",
+          "#b5cee3",
+          "#edf3f8"
+        ]
+      },
+      "status-warning": {
+        "displayName": "Waiting State Label",
+        "role": "secondary",
+        "tonalRamp": [
+          "#34230f",
+          "#593b19",
+          "#7f5423",
+          "#a56d2e",
+          "#bb874c",
+          "#d1a773",
+          "#e6c8a2",
+          "#f7eee2"
+        ]
+      },
+      "status-info": {
+        "displayName": "Inquiry State Label",
+        "role": "secondary",
+        "tonalRamp": [
+          "#192532",
+          "#2b4053",
+          "#3d5d7a",
+          "#547493",
+          "#718ba3",
+          "#9aafc1",
+          "#c8d5df",
+          "#eef2f5"
+        ]
+      },
+      "status-error": {
+        "role": "semantic",
+        "displayName": "Error Label",
+        "tonalRamp": [
+          "#34201e",
+          "#5c3733",
+          "#83504a",
+          "#aa6860",
+          "#c27f77",
+          "#d39b95",
+          "#e6c0bc",
+          "#f8ecea"
+        ]
+      },
+      "status-error-soft": {
+        "role": "semantic",
+        "displayName": "Error Surface",
+        "tonalRamp": [
+          "#3d1f1c",
+          "#693531",
+          "#954b46",
+          "#c2615c",
+          "#d87d77",
+          "#e29c97",
+          "#efc5c1",
+          "#fbf0ef"
+        ]
+      },
+      "notice-success": {
+        "role": "semantic",
+        "displayName": "Success Notice Text",
+        "tonalRamp": [
+          "#203a2c",
+          "#305941",
+          "#427b59",
+          "#559c70",
+          "#70b187",
+          "#91c2a1",
+          "#bfdbc7",
+          "#f0f6ef"
+        ]
+      },
+      "notice-success-soft": {
+        "role": "semantic",
+        "displayName": "Success Notice Surface",
+        "tonalRamp": [
+          "#1e3528",
+          "#345840",
+          "#4b7a59",
+          "#629b72",
+          "#7daf8a",
+          "#9ac3a4",
+          "#c6ddcb",
+          "#f0f6ef"
+        ]
+      },
+      "notice-info": {
+        "role": "semantic",
+        "displayName": "Information Notice Text",
+        "tonalRamp": [
+          "#1e2c37",
+          "#31495e",
+          "#456780",
+          "#5d85a0",
+          "#7b9eb4",
+          "#9fb8c7",
+          "#cad9e1",
+          "#f0f5f9"
+        ]
+      },
+      "notice-info-soft": {
+        "role": "semantic",
+        "displayName": "Information Notice Surface",
+        "tonalRamp": [
+          "#1b2a36",
+          "#2f4960",
+          "#446984",
+          "#5c86a4",
+          "#7a9fb9",
+          "#9fbcd0",
+          "#cbdce6",
+          "#f0f5f9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Workspace headline",
+        "purpose": "Top-level dashboard welcome and hero heading."
+      },
+      "page-title": {
+        "displayName": "Page title",
+        "purpose": "Current catalog, order, tracking, or account page."
+      },
+      "section-title": {
+        "displayName": "Section title",
+        "purpose": "Product collection and supporting sections."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descriptions, form guidance, and supporting copy."
+      },
+      "label": {
+        "displayName": "Action label",
+        "purpose": "Buttons, field labels, and navigation text."
+      },
+      "metadata": {
+        "displayName": "Metadata",
+        "purpose": "Product codes, status chips, and compact record details."
+      }
+    },
+    "shadows": [
+      {
+        "name": "product-hover",
+        "value": "0 12px 28px rgba(27,49,34,.08)",
+        "purpose": "Soft separation when a product card is hovered."
+      }
+    ],
+    "motion": [
+      {
+        "name": "quick-state",
+        "value": ".16s background, border-color, and transform transition",
+        "purpose": "Button and card feedback without delaying work."
+      },
+      {
+        "name": "sidebar-drawer",
+        "value": ".22s ease transform",
+        "purpose": "Reveal the navigation drawer on narrow screens."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1180px",
+        "purpose": "Reduce catalog grid and sidebar width."
+      },
+      {
+        "name": "navigation-drawer",
+        "value": "820px",
+        "purpose": "Collapse desktop sidebar into a drawer."
+      },
+      {
+        "name": "phone",
+        "value": "620px",
+        "purpose": "Use single-column catalogs and stacked forms."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The primary action for searching, publishing, or advancing a valid workflow step.",
+      "html": "<button class=\"ds-button-primary\">Find supplier matches <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button-primary{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:38px;padding:0 14px;border:1px solid var(--green);border-radius:6px;background:var(--green);color:#fff;font:700 10px/1.4 \"DM Sans\",Arial,sans-serif;cursor:pointer;transition:background .16s,border-color .16s,transform .16s}.ds-button-primary svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-button-primary:hover{background:var(--green-deep);border-color:var(--green-deep)}.ds-button-primary:focus-visible{outline:3px solid #91b29a;outline-offset:2px}.ds-button-primary:active{transform:translateY(1px)}.ds-button-primary:disabled{opacity:.56;cursor:wait}"
+    },
+    {
+      "name": "Quiet Action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "A low-emphasis action for secondary navigation and opening order details.",
+      "html": "<button class=\"ds-button-quiet\">View details <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-button-quiet{display:inline-flex;align-items:center;gap:7px;padding:4px 0;border:0;background:transparent;color:var(--green);font:700 10px/1.4 \"DM Sans\",Arial,sans-serif;cursor:pointer}.ds-button-quiet svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-button-quiet:hover{text-decoration:underline;text-underline-offset:3px}.ds-button-quiet:focus-visible{outline:3px solid #91b29a;outline-offset:2px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input-text",
+      "description": "A labeled marketplace input with a strong visible focus state.",
+      "html": "<label class=\"ds-field\">Product name<input class=\"ds-input\" type=\"text\" placeholder=\"Heavyweight cotton tote\"/></label>",
+      "css": ".ds-field{display:grid;gap:6px;color:#58675d;font:700 9px/1.4 \"DM Sans\",Arial,sans-serif}.ds-input{width:100%;min-height:40px;padding:9px 10px;border:1px solid #dce4dc;border-radius:6px;background:#fff;color:#202a24;font:400 10px/1.5 \"DM Sans\",Arial,sans-serif}.ds-input::placeholder{color:#929d94}.ds-input:focus-visible{outline:3px solid #91b29a;outline-offset:2px;border-color:#91b29a}"
+    },
+    {
+      "name": "Selected Sidebar Destination",
+      "kind": "nav",
+      "refersTo": "nav-item-selected",
+      "description": "Keeps the current buyer or supplier work area visible in the role-aware sidebar.",
+      "html": "<button class=\"ds-nav-item\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z\"/></svg><span>Product catalog</span></button>",
+      "css": ".ds-nav-item{width:100%;min-height:39px;display:flex;align-items:center;gap:11px;padding:8px 10px;border:0;border-radius:7px;background:#e8f0e8;color:#28533e;text-align:left;font:700 10px/1.4 \"DM Sans\",Arial,sans-serif;cursor:pointer}.ds-nav-item svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-nav-item:hover{background:#dce9dc}.ds-nav-item:focus-visible{outline:3px solid #91b29a;outline-offset:2px}"
+    },
+    {
+      "name": "Marketplace Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Presents product, specifications, price, supplier identity, and inquiry action as one scanable item.",
+      "html": "<article class=\"ds-product\"><div class=\"ds-product-image\">PRODUCT IMAGE</div><div class=\"ds-product-body\"><span class=\"ds-code\">Product code <b>Unit price</b></span><h3>Product name</h3><p>Product description and capabilities.</p><div class=\"ds-tags\"><span>Size</span><span>Color</span></div><div class=\"ds-supplier\">F <span>Supplier or factory<small>Supplier / factory</small></span></div><button class=\"ds-inquiry\">Send inquiry <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></button></div></article>",
+      "css": ".ds-product{overflow:hidden;border:1px solid #dfe5df;border-radius:9px;background:#fff;color:#202a24;font-family:\"DM Sans\",Arial,sans-serif}.ds-product-image{height:110px;display:flex;align-items:flex-start;padding:12px;background:#eef2ea;color:#758579;font-size:8px;font-weight:700;letter-spacing:.75px}.ds-product-body{padding:13px 14px 12px}.ds-code{display:flex;justify-content:space-between;gap:8px;color:#7d897f;font-size:8px}.ds-code b{color:#3c5e43;font-size:10px}.ds-product h3{margin:10px 0 5px;font-size:13px}.ds-product p{margin:0;color:#6f7c72;font-size:10px;line-height:1.55}.ds-tags{display:flex;gap:5px;margin-top:10px}.ds-tags span{padding:4px 6px;border-radius:4px;background:#f2f5f1;color:#647267;font-size:8px}.ds-supplier{display:flex;align-items:center;gap:8px;margin-top:12px;padding:10px 0;border-top:1px solid #edf0ed;color:#28533e;font-weight:700;font-size:9px}.ds-supplier>span{color:#354339}.ds-supplier small{display:block;margin-top:2px;color:#849087;font-size:8px;font-weight:400}.ds-inquiry{width:100%;display:flex;align-items:center;justify-content:space-between;padding:10px 0 0;border:0;border-top:1px solid #edf0ed;background:transparent;color:#28533e;font:700 10px/1.4 \"DM Sans\",Arial,sans-serif;cursor:pointer}.ds-inquiry svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.ds-inquiry:hover{color:#1d3e2e}.ds-inquiry:focus-visible{outline:3px solid #91b29a;outline-offset:2px}"
+    },
+    {
+      "name": "Order Status Chip",
+      "kind": "chip",
+      "refersTo": "status-chip",
+      "description": "Names the current order state on its pale semantic background.",
+      "html": "<span class=\"ds-status\">Payment awaiting</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;padding:6px 8px;border-radius:5px;background:#fbf0de;color:#80571f;font:700 8px/1.4 \"DM Sans\",Arial,sans-serif;text-transform:capitalize}"
+    },
+    {
+      "name": "Order Progress",
+      "kind": "custom",
+      "refersTo": "order-progress",
+      "description": "Shows the buyer and supplier the same five named steps from inquiry to shipment.",
+      "html": "<div class=\"ds-progress\"><div class=\"ds-step ds-done\"><span>✓</span><small>Inquiry</small></div><div class=\"ds-step ds-current\"><span>2</span><small>Order details</small></div><div class=\"ds-step\"><span>3</span><small>Payment</small></div><div class=\"ds-step\"><span>4</span><small>Packing</small></div><div class=\"ds-step\"><span>5</span><small>Shipped</small></div></div>",
+      "css": ".ds-progress{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));font-family:\"DM Sans\",Arial,sans-serif}.ds-step{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;color:#a1aba2}.ds-step:not(:last-child):after{position:absolute;z-index:0;content:\"\";height:1px;top:11px;left:calc(50% + 14px);right:calc(-50% + 14px);background:#e2e7e2}.ds-step>span{position:relative;z-index:1;width:23px;height:23px;display:grid;place-items:center;border:1px solid #dfe5df;border-radius:50%;background:#fff;color:#849187;font-size:8px}.ds-step.ds-done>span{border-color:#c7d9c6;background:#eef4ec;color:#28533e}.ds-step.ds-done:after{background:#9bb29b}.ds-step.ds-current>span{border-color:#28533e;background:#28533e;color:#fff}.ds-step small{font-size:8px;white-space:nowrap}.ds-step.ds-current small{color:#28533e;font-weight:700}"
+    },
+    {
+      "name": "Feedback Notice States",
+      "kind": "notice",
+      "refersTo": "notice",
+      "description": "Communicates success, information, or errors with distinct colors; errors expose alert semantics and other notices expose status semantics.",
+      "html": "<div class=\"ds-notice ds-notice-success\" role=\"status\">Order updated <button aria-label=\"Dismiss message\">×</button></div><div class=\"ds-notice ds-notice-info\" role=\"status\">Review supplier details <button aria-label=\"Dismiss message\">×</button></div><div class=\"ds-notice ds-notice-error\" role=\"alert\">Payment could not be confirmed <button aria-label=\"Dismiss message\">×</button></div>",
+      "css": ".ds-notice{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 13px;border:1px solid;border-radius:8px;font:400 11px/1.5 \"DM Sans\",Arial,sans-serif}.ds-notice button{border:0;background:transparent;color:inherit;cursor:pointer}.ds-notice-success{border-color:#cddfce;background:#f0f6ef;color:#305941}.ds-notice-info{border-color:#d3dfe8;background:#f0f5f9;color:#3e5d75}.ds-notice-error{border-color:#ebcbc8;background:#fcf0ef;color:#883e38}.ds-notice:focus-within{outline:3px solid #91b29a;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Source-to-Shipment Workbench",
+    "overview": "Foundry keeps a B2B buyer and supplier workflow in one workspace: discover products, compare supplier specifications, send an inquiry, complete order details, confirm payment, and follow delivery. A persistent navigation rail keeps each role’s next task in reach while the main canvas changes between catalog, orders, listings, tracking, and account views.\n\nThe interface uses DM Sans, a quiet green action color, white task surfaces, and cool neutral framing. Green identifies the primary action and current navigation item; amber, blue, and green status treatments distinguish order states. Supplier-provided images are shown as supplied. When there is no image, a labeled neutral placeholder makes that absence clear.",
+    "keyCharacteristics": [
+      "Role-aware navigation for buyers and suppliers.",
+      "Product cards that keep price, specifications, supplier, and inquiry action together.",
+      "Order progress shown as named steps, with actions appearing at the relevant state.",
+      "Personal delivery details shown in the authorized order context only."
+    ],
+    "rules": [
+      {
+        "name": "The Source-and-Status Rule",
+        "body": "Use the primary green for the current task and selected location. Use semantic status colors only to explain an order or system state; never use them as decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The One-Family Rule",
+        "body": "Keep labels, forms, cards, and navigation in DM Sans. Use weight and size to establish hierarchy rather than introducing a display face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Role-Rail Rule",
+        "body": "Keep buyer and supplier destinations in the left navigation; change the main content to the selected task without hiding role context.",
+        "section": "layout"
+      },
+      {
+        "name": "The Clear-Feedback Rule",
+        "body": "Use separate colors for success, information, and error notices. Expose errors with alert semantics and other feedback with status semantics.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do keep buyer and supplier actions role-specific and close to their related records.",
+      "Do show the current order state and name the next available step.",
+      "Do keep payment verification visibly ahead of packing and shipment actions.",
+      "Do use supplier-provided product images and honest labeled placeholders when an image is absent.",
+      "Do distinguish success, information, and error notices with separate colors and retain accessible message semantics."
+    ],
+    "donts": [
+      "Don't imply that image recognition, live checkout, supplier verification, or tracking-provider integrations exist when they are not connected.",
+      "Don't show delivery addresses outside the buyer’s order or the assigned supplier’s order detail.",
+      "Don't use status colors as decoration or replace status labels with color alone."
+    ]
+  }
+}

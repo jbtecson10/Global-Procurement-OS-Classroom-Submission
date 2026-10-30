@@ -1,0 +1,29 @@
+GLOBAL PROCUREMENT OS — CLASSROOM SUBMISSION
+
+Complete source code for the AI-Powered E-Commerce Web Application.
+
+RUN LOCALLY
+1. Install and start Docker Desktop.
+2. Open PowerShell in this folder.
+3. Run: Copy-Item .env.example .env
+4. Edit .env: set DATABASE_PASSWORD and PAYMENT_WEBHOOK_SECRET to private random values. Set DEMO_DATA_ENABLED=true for sample buyer/supplier walkthroughs.
+5. Run: docker compose -f compose.yml up --build
+6. Open http://localhost:3000
+7. Stop with: docker compose -f compose.yml down
+
+PUBLISH A TEMPORARY RENDER DEMO
+The render.yaml Blueprint is prepared for Render. Put this project folder's contents at the root of a GitHub repository, connect it in Render, and create a new Blueprint from render.yaml. The demo will use fictional accounts and simulated payments.
+
+Render's free web services sleep after 15 minutes idle. Free PostgreSQL expires after 30 days. Uploaded photos on free web services are temporary. Local Ollama models do not run on Render; until a reachable AI service is configured, search uses the stated fallback.
+
+AI SEARCH LOCALLY
+Install Ollama and pull llama3.2:3b and moondream:latest for live AI text/photo matching.
+
+PAYMENTS
+The demo payment never charges a card. Hosted Stripe checkout needs Stripe test credentials and a signed webhook. No payment credentials are included.
+
+PRIVACY
+Private .env files, database volumes, and generated build folders are excluded. Never upload a private .env file to Classroom. Use fictional information in public demos.
+
+TECHNOLOGY
+Next.js frontend · Spring Boot backend · PostgreSQL · Ollama AI · Optional Stripe checkout
